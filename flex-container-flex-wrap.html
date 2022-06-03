@@ -12,7 +12,7 @@
             height: 150px;
             border: 2px solid black;
             max-width: 300px;
-            /*testar com os dois flex-direction: row e column*/
+            margin-bottom: 45px;
         }
 
         .item{
@@ -27,7 +27,7 @@
         .nowrap{
             flex-wrap: nowrap;
         }
-
+        
         .wrap{
             flex-wrap: wrap;
         }
@@ -47,11 +47,15 @@
         .orange{
             background-color: orange;
         }
+
+        .column{
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
-    <h1>no wrap</h1>
-
+    <h1>ROW</h1>
+    <h1>row nowrap</h1>
     <div class="flex-container nowrap">
         <div class="item orange">1</div>
         <div class="item purple">2</div>
@@ -59,8 +63,7 @@
         <div class="item orange">4</div>
     </div>
 
-    <h1>wrap</h1>
-
+    <h1>row wrap</h1>
     <div class="flex-container wrap">
         <div class="item orange">1</div>
         <div class="item purple">2</div>
@@ -68,9 +71,33 @@
         <div class="item orange">4</div>
     </div>
 
-    <h1>wrap-reverse</h1>
-
+    <h1>row wrap-reverse</h1>
     <div class="flex-container wrap-reverse">
+        <div class="item orange">1</div>
+        <div class="item purple">2</div>
+        <div class="item blue">3</div>
+        <div class="item orange">4</div>
+    </div>
+
+    <h1>COLUMN</h1>
+    <h1>column nowrap</h1>
+    <div class="flex-container nowrap column">
+        <div class="item orange">1</div>
+        <div class="item purple">2</div>
+        <div class="item blue">3</div>
+        <div class="item orange">4</div>
+    </div>
+
+    <h1>column wrap</h1>
+    <div class="flex-container wrap column">
+        <div class="item orange">1</div>
+        <div class="item purple">2</div>
+        <div class="item blue">3</div>
+        <div class="item orange">4</div>
+    </div>
+
+    <h1>column wrap-reverse</h1>
+    <div class="flex-container wrap-reverse column">
         <div class="item orange">1</div>
         <div class="item purple">2</div>
         <div class="item blue">3</div>
