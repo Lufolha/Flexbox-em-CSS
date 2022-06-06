@@ -10,3 +10,13 @@ Conhecer e aplicar as propriedades do Flex Container:
 - Justify Content
 - Align Items
 - Align Content
+
+Conhecer e aplicar as propriedades do Flex Item:
+- Flex Grow
+- Flex Basis
+- Flex Shrink
+- Flex
+- Order
+- Align Self
+
+Visite [meu perfil](https://www.linkedin.com/in/luisafolharini/) 😃
